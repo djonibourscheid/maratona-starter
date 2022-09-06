@@ -9,6 +9,7 @@
   --white-primary: #FFFFFF;
   --white-secondary: #F5F3F4;
 
+  --color-button-hover: #D9D9D9;
 }
 
 * {
@@ -18,7 +19,7 @@
 }
 
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Epilogue', sans-serif;
   font-size: 1.6rem;
 }
 
@@ -27,8 +28,19 @@ a {
 }
 
 button {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Epilogue', sans-serif;
   font-size: 1.6rem;
+  color: var(--white-primary);
+  text-transform: uppercase;
+  cursor: pointer;
+
+  transition: color .3s ease-in-out,
+    background-color .3s ease-in-out,
+    border-color .3s ease-in-out;
+}
+
+button:hover {
+  color: var(--color-button-hover);
 }
 
 .container {
@@ -39,6 +51,7 @@ button {
 .logo-sirbarber img {
   width: 16rem;
 }
+
 
 /* HEADER */
 header {
@@ -52,21 +65,77 @@ header {
   align-items: center;
 }
 
-
-.btn {
+.btn-outline {
   padding: 1.2rem 2.4rem;
-
-  color: var(--white-primary);
-  background-color: transparent;
-
-  border-radius: none;
+  font-weight: 600;
   border: .2rem solid var(--white-primary);
+  background-color: transparent;
+}
 
-  cursor: pointer;
-  text-transform: uppercase;
+.btn-outline:hover {
+  border-color: var(--color-button-hover);
 }
 
 
+/* MAIN */
+/* HERO */
+#hero {
+  background-color: var(--black-primary);
+}
+
+.hero-content {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 0 7.2rem;
+}
+
+/* left */
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 55rem;
+}
+
+.hero-text__title {
+  font-size: 5.6rem;
+  line-height: 6.4rem;
+  font-weight: 700;
+  color: var(--white-primary);
+}
+
+.hero-text__paragraph {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: var(--white-secondary);
+}
+
+.btn-primary {
+  padding: 2rem 4rem;
+  font-weight: 700;
+  border: none;
+  background-color: var(--red-primary);
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btn-primary:hover {
+  background-color: #941B1D;
+}
+
+.hero-text,
+.hero-img {
+  flex: 1;
+}
+
+/* right */
+.hero-img img {
+  width: 100%;
+}
 
 
 /* FOOTER */
