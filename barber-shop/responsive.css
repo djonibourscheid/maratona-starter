@@ -1,0 +1,140 @@
+/* 1024px */
+@media (max-width: 64rem) {
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    align-items: center;
+    text-align: center;
+    gap: 2.5rem;
+    padding: 4.8rem 0;
+  }
+
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 65%;
+  }
+}
+
+/* 900px */
+@media (max-width: 56.25rem) {
+
+  /* SERVICES */
+  .services-list {
+    flex-wrap: wrap;
+  }
+
+  .service-card {
+    width: 65%;
+    min-width: 32rem;
+  }
+}
+
+/* 768px */
+@media (max-width: 48rem) {
+
+  /* CONTAINERS */
+  .header-container {
+    padding: 2.4rem 4.8rem;
+  }
+
+  .hero-container {
+    padding: 0 4.8rem;
+  }
+
+  .services-container {
+    padding: 7.2rem 4.8rem;
+  }
+
+  .location-container {
+    padding: 7.2rem 4.8rem 2.4rem;
+  }
+
+
+  /* GENERAL */
+  .overtitle {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+
+  .title {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
+
+  /* LOCATION */
+  .location__address {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}
+
+/* 500px */
+@media (max-width: 31.25rem) {
+
+  /* HEADER */
+  .header-container {
+    padding: 2rem;
+  }
+
+  .header-container .logo-sirbarber img {
+    width: 9rem;
+  }
+
+  .btn-outline {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+
+  /* HERO */
+  .hero-container {
+    padding: 0 2rem;
+  }
+
+  .hero-text__title {
+    font-size: 3.2rem;
+    line-height: 4.0rem;
+  }
+
+  .hero-text__paragraph {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+
+  /* SERVICES */
+  .services-container {
+    padding: 4.8rem 2rem;
+  }
+
+  .service-card {
+    min-width: 28rem;
+    width: 100%;
+  }
+
+
+  /* LOCATION  */
+  .location-container {
+    padding: 4.8rem 2rem 2rem;
+  }
+
+  #location iframe {
+    height: 35rem;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    padding: 4.8rem 2rem;
+
+    flex-direction: column;
+    text-align: center;
+  }
+}
