@@ -65,6 +65,7 @@ button:hover {
   font-size: 4.4rem;
   line-height: 5.6rem;
   color: var(--black-primary);
+  margin-top: 1.6rem;
 }
 
 
@@ -195,6 +196,29 @@ button:hover {
   line-height: 2.4rem;
   color: var(--black-secondary);
 }
+
+
+/* LOCATION */
+#location {
+  background-color: var(--white-secondary);
+}
+
+.location-container {
+  padding: 9.6rem 7.2rem 4.8;
+}
+
+.location__address {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-style: normal;
+  color: var(--black-secondary);
+}
+
 
 /* FOOTER */
 #footer-page {
