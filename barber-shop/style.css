@@ -27,7 +27,7 @@ a {
   text-decoration: none;
 }
 
-button {
+.btn {
   font-family: 'Epilogue', sans-serif;
   font-size: 1.6rem;
   color: var(--white-primary);
@@ -39,7 +39,7 @@ button {
     border-color .3s ease-in-out;
 }
 
-button:hover {
+.btn:hover {
   color: var(--color-button-hover);
 }
 
