@@ -70,3 +70,66 @@ a {
   border: .2rem solid var(--black-primary);
   background-color: transparent;
 }
+
+
+/* MAIN */
+/* HERO */
+#hero {
+  background-color: var(--white-primary);
+}
+
+.hero-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 0 7.2rem;
+}
+
+/* left */
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 9.6rem 0;
+  max-width: 55rem;
+  flex: 1;
+}
+
+.hero-text__title {
+  font-size: 5.6rem;
+  line-height: 6.4rem;
+  font-weight: 700;
+  color: #0A0A0A;
+}
+
+.hero-text__paragraph {
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: var(--black-secondary);
+}
+
+.btn-primary {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: var(--white-primary);
+  padding: 2rem 4rem;
+  background-color: var(--purple-primary);
+  border: none;
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* right */
+.hero-img {
+  flex: 1;
+  align-self: flex-end;
+}
+
+.hero-img img {
+  width: 100%;
+  vertical-align: bottom;
+}
