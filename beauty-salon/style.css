@@ -199,3 +199,30 @@ a {
   line-height: 2.4rem;
   color: var(--black-secondary);
 }
+
+
+/* LOCATION */
+#location {
+  background-color: var(--white-secondary);
+}
+
+.location-container {
+  padding: 9.6rem 7.2rem 4.8rem;
+}
+
+.location__address {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+
+  font-family: var(--font-sans-serif);
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-style: normal;
+  color: var(--black-primary);
+}
+
+#location iframe {
+  vertical-align: bottom;
+}
