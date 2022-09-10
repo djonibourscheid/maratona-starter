@@ -51,6 +51,10 @@ a {
   margin: 0 auto;
 }
 
+.logo-product img {
+  width: 16rem;
+}
+
 .overtitle {
   font-family: var(--font-sans-serif);
   font-weight: 700;
@@ -79,10 +83,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.logo-product img {
-  width: 16rem;
 }
 
 .btn-outline {
@@ -252,16 +252,6 @@ a {
   gap: 2rem;
 
   color: var(--white-primary);
-}
-
-.footer-container h3 {
-  font-size: 3.6rem;
-  line-height: 4rem;
-  font-weight: 400;
-}
-
-.footer-container h3 span {
-  font-weight: 700;
 }
 
 .footer-container p {
