@@ -53,7 +53,6 @@ a {
   font-weight: 700;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  color: var(--green-primary);
   text-transform: uppercase;
 }
 
@@ -61,7 +60,6 @@ a {
   font-weight: 700;
   font-size: 4.4rem;
   line-height: 5.6rem;
-  color: var(--white-tertiary);
   margin-top: 1.6rem;
 }
 
@@ -159,6 +157,14 @@ a {
   padding: 9.6rem 7.2rem;
 }
 
+.services-container .overtitle {
+  color: var(--green-primary);
+}
+
+.services-container .title {
+  color: var(--white-tertiary);
+}
+
 .services-list {
   margin-top: 4.8rem;
   display: flex;
@@ -194,4 +200,38 @@ a {
   margin-top: .8rem;
   line-height: 2.4rem;
   color: var(--white-tertiary);
+}
+
+
+/* LOCATION */
+#location {
+  background-color: var(--white-secondary);
+}
+
+.location-container {
+  padding: 9.6rem 7.2rem 4.8rem;
+}
+
+.location-container .overtitle {
+  color: var(--blue-secondary);
+}
+
+.location-container .title {
+  color: var(--blue-primary);
+}
+
+.location__address {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-style: normal;
+  color: var(--blue-secondary);
+}
+
+#location iframe {
+  vertical-align: bottom;
 }
