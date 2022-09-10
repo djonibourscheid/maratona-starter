@@ -1,0 +1,70 @@
+/* GLOBAL */
+:root {
+  font-size: 62.5%;
+
+  --blue-primary: #19456B;
+  --blue-secondary: #11698E;
+  --green-primary: #16C79A;
+  --white-primary: #FFFFFF;
+  --white-secondary: #F8F1F1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  border-radius: 9rem;
+
+  transition: color .3s ease-in-out,
+    background-color .3s ease-in-out,
+    border-color .3s ease-in-out;
+}
+
+.container {
+  max-width: 128rem;
+  margin: 0 auto;
+}
+
+.logo-product img {
+  width: 9rem;
+}
+
+
+/* HEADER */
+#header-page {
+  background-color: var(--white-secondary);
+}
+
+.header-container {
+  padding: 2.4rem 7.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-outline {
+  padding: 1.2rem 2.4rem;
+  font-weight: 600;
+  color: var(--blue-primary);
+  border: .2rem solid var(--blue-primary);
+  background-color: transparent;
+}
