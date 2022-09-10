@@ -113,7 +113,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 2rem;
+  gap: 2.4rem;
   padding: 9.6rem 0;
   max-width: 55rem;
   flex: 1;

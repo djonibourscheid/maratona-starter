@@ -2,18 +2,16 @@
 @media (max-width: 64rem) {
   .hero-container {
     flex-direction: column;
+    padding: 0 7.2rem;
   }
 
   .hero-text {
     align-items: center;
     text-align: center;
-    gap: 2.5rem;
     padding: 4.8rem 0;
   }
 
   .hero-img {
-    display: flex;
-    justify-content: center;
     align-self: center;
     width: 65%;
   }
@@ -141,12 +139,22 @@
 
 /* 375px */
 @media (max-width: 23.4rem) {
+
+  /* HEADER */
   .header-container {
     padding: 2rem;
     flex-direction: column;
     gap: 1rem;
   }
+
   .header-container .logo-product img {
     width: 16rem;
+  }
+
+
+  /* HERO */
+  .btn-primary {
+    font-size: 1.4rem;
+    line-height: 2rem;
   }
 }

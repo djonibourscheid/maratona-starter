@@ -46,7 +46,7 @@ a {
 }
 
 .logo-product img {
-  width: 9rem;
+  width: 10rem !important;
 }
 
 .overtitle {
@@ -98,6 +98,7 @@ a {
   justify-content: space-between;
 
   padding: 4.8rem 7.2rem;
+  padding-bottom: 4.8rem !important;
 }
 
 /* left */
