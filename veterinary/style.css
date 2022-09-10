@@ -235,3 +235,35 @@ a {
 #location iframe {
   vertical-align: bottom;
 }
+
+
+/* FOOTER */
+#footer-page {
+  background-color: var(--blue-secondary);
+}
+
+.footer-container {
+  padding: 4.8rem 7.2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+
+  color: var(--white-primary);
+}
+
+.footer-container p {
+  margin-top: 1rem;
+  line-height: 2.4rem;
+}
+
+.footer-container .social-links {
+  display: inline-flex;
+  gap: 1.3rem;
+}
+
+.footer-container .social-links a {
+  width: 4rem;
+  height: 4rem;
+}
