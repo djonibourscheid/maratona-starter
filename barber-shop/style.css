@@ -30,6 +30,7 @@ a {
 .btn {
   font-family: 'Epilogue', sans-serif;
   font-size: 1.6rem;
+  line-height: 2.4rem;
   letter-spacing: 0.005em;
   color: var(--white-primary);
   text-transform: uppercase;

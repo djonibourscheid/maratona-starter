@@ -34,6 +34,7 @@ a {
 .btn {
   font-family: var(--font-sans-serif);
   font-size: 1.6rem;
+  line-height: 2.4rem;
   letter-spacing: 0.005em;
   text-transform: uppercase;
   cursor: pointer;
