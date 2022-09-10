@@ -84,6 +84,10 @@ a {
   background-color: transparent;
 }
 
+.btn-outline:hover {
+  border-color: var(--blue-secondary);
+  color: var(--blue-secondary);
+}
 
 /* MAIN */
 /* HERO */
@@ -135,6 +139,10 @@ a {
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+.btn-primary:hover {
+  background-color: #1AA17E;
 }
 
 /* right */
