@@ -7,6 +7,7 @@
   --green-primary: #16C79A;
   --white-primary: #FFFFFF;
   --white-secondary: #F8F1F1;
+  --white-tertiary: #FFF5FD;
 }
 
 * {
@@ -46,6 +47,22 @@ a {
 
 .logo-product img {
   width: 9rem;
+}
+
+.overtitle {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--green-primary);
+  text-transform: uppercase;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 5.6rem;
+  color: var(--white-tertiary);
+  margin-top: 1.6rem;
 }
 
 
@@ -130,4 +147,51 @@ a {
 .hero-img img {
   width: 100%;
   vertical-align: bottom;
+}
+
+
+/* SERVICES */
+#services {
+  background-color: var(--blue-primary)
+}
+
+.services-container {
+  padding: 9.6rem 7.2rem;
+}
+
+.services-list {
+  margin-top: 4.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+/* for each card */
+.service-card {
+  background-color: var(--blue-secondary);
+  border-radius: 3.2rem;
+
+  width: 36rem;
+}
+
+.service-card img {
+  width: 100%;
+  border-radius: 3.2rem 3.2rem 0 0;
+}
+
+.service-card__text {
+  padding: 3.2rem;
+}
+
+.service-card__text h3 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: var(--white-primary);
+}
+
+.service-card__text p {
+  margin-top: .8rem;
+  line-height: 2.4rem;
+  color: var(--white-tertiary);
 }
