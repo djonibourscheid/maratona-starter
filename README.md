@@ -1,7 +1,7 @@
 <h1 align="center">
   <a href="https://djonibourscheid.github.io/maratona-starter/">Maratona Starter</a>
 </h1>
-<p align="center">3 projetos de landing pages criadas do zero</p>
+<p align="center">3 projetos de landing pages criadas do zero durante a Maratona Starter</p>
 
 <p align="center">
   <a href="#-objetivo">Objetivo</a> •
