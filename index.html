@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maratona Starter - Menu</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/9946acec49.js" crossorigin="anonymous"></script>
+
+  <style>
+    :root {
+      font-size: 62.5%;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.6rem;
+      color: #FFFFFF;
+      background-color: #121214;
+    }
+
+    h1 {
+      font-weight: 600;
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-weight: 500;
+    }
+
+    #projects-wrapper {
+      margin: 8rem auto;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      justify-content: center;
+      align-items: center;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      list-style: none;
+      gap: 2rem;
+      padding: 2rem;
+      background-color: #333334;
+      border-radius: 0.8rem;
+    }
+
+    li a,
+    .social {
+      color: #FFFFFF;
+      transition: text-shadow 0.2s ease-in-out;
+    }
+
+    li a:hover,
+    .social:hover {
+      text-shadow: 0 0 0.5rem #bbb;
+    }
+
+    /* FOOTER */
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 6rem;
+      background-color: #333334;
+    }
+
+    footer,
+    footer .wrapper {
+      display: flex;
+      align-items: center;
+    }
+
+    footer .wrapper {
+      justify-content: space-evenly;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    footer h3,
+    .social i {
+      font-size: 2rem;
+    }
+
+    .social {
+      margin: 0 .5rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section id="projects-wrapper">
+      <h1 class="title">Maratona Starter</h1>
+      <ul>
+        <li><a rel="next" href="./barber-shop">Barbearia</a></li>
+        <li><a rel="next" href="./veterinary">Veterinário</a></li>
+        <li><a rel="next" href="./beauty-salon">Salão de beleza</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrapper">
+      <h3>Djoni Bourscheid</h3>
+
+      <div class="socials-wrapper">
+        <a class="social" href="http://linkedin.com/in/djonibourscheid" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a class="social" href="http://github.com/djonibourscheid" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
